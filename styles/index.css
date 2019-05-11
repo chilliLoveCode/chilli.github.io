@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+ 
+#main {
+    width: 1125px;
+    height: auto;
+    margin: 50px auto;
+    overflow: hidden;
+}
+.website-header {
+	width: 1125px;
+	margin: 50px auto;
+	height: auto;
+}
+ 
+.nav {
+    width: 1125px;
+    height: 80px;
+}
+
+html {
+	font-size: 20px;
+	background: #F5F5F5;
+}
+h2 {
+	padding: 0 20px;
+	color: rgb(7, 108, 224);
+}
+.container-nav {	
+	background: #2b2b2b;
+	box-shadow: 3px 0 4px rgba(0,0,0,0.1);
+}
+.container-nav ul {
+	height: 2.6rem;
+	list-style-type: none;
+}
+.container-nav li {
+	width: 25%;
+	text-align: center;
+	line-height: 2.6rem;
+	float: left;
+	cursor: pointer;
+	color: #ffffff;
+}
+.container-banner {
+	overflow: hidden;
+	height: 29rem;
+}
+.banner-slide {
+	width: 56.25rem;
+	height: 29rem;
+	background-repeat: no-repeat; 
+	position: absolute;
+}
+.slide1 {
+	background-image: url("../images/1.jpg");
+	background-size: 56.25rem 29rem;
+}
+.slide2 {
+	background-image: url("../images/2.jpg");
+	background-size: 56.25rem 29rem;
+}
+.slide3 {
+	background-image: url("../images/3.jpg");
+	background-size: 56.25rem 29rem;
+}
+.slide4 {
+	background-image: url("../images/4.jpg");
+	background-size: 56.25rem 29rem;
+}
+
+.changeColor {
+    background: #ffcc00;
+    border-radius: 5px;
+}
